@@ -12,14 +12,10 @@ def line(array)
     end
 end
 
-line
-
 def take_a_number(line,new_person)
   line.push(new_person)
   puts "Welcome, #{new_person}. Your number is #{line.length}."
 end
-
-take_a_number
 
 def now_serving(line)
   if line.length == 0
@@ -30,4 +26,3 @@ def now_serving(line)
   end
 end
 
-puts now_serving
